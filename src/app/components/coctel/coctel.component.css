@@ -1,0 +1,17 @@
+#popular {
+    background-color: rgb(190, 241, 224);
+}
+
+a {
+	color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:hover {
+	color:blue;
+}
+
+.cell {
+    display: flex;
+    justify-content: space-evenly;
+}

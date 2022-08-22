@@ -1,0 +1,36 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+
+<div class="row column text-center">
+    <br>
+    <div class="callout success" data-closable="slide-out-right">
+        <h2>Welcome to the Cocktails app!</h2>
+    </div>
+    
+    <h4>Enter the name of any cocktail ↴</h4>
+    <hr>
+    <form (ngSubmit)="cargarCoctel(coctelName.name)">
+        <div class="input-group">
+            <span class="input-group-label">🍷</span>
+            <input name="name" 
+            class="input-group-field" 
+            type="text" 
+            placeholder="Coctel name"
+            [(ngModel)]="coctelName.name">
+            <div class="input-group-button">
+                <input type="submit" 
+                class="button" 
+                value="Submit">
+            </div>
+        </div>
+    </form>
+    <hr>
+</div>
+
+<div class="row column text-center">
+    <h2 class="popular">Some popular cocktails :P</h2>
+    <hr>
+</div>
+
+<app-coctel></app-coctel>

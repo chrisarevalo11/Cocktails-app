@@ -1,0 +1,37 @@
+
+<div id="popular" class="grid-container">
+    <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+      <div class="cell">
+        <div *ngFor="let cocktail of popularCocktails.slice(0,3)" class="card" style="width: 300px;">
+            <a (click)="infoCoctel(cocktail.drinks[0].strDrink)">
+                <div class="card-divider">
+                <h4 class="text-center">{{cocktail.drinks[0].strDrink}}</h4>
+                </div>
+                <img src={{cocktail.drinks[0].strDrinkThumb}}>
+                <div class="card-section">
+                <p><b>Ingredients: </b>{{ingredients}}</p>
+                </div>
+            </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="popular" class="grid-container">
+  <div class="grid-x grid-margin-x small-up-2 medium-up-3">
+    <div class="cell">
+      <div *ngFor="let cocktail of popularCocktails.slice(3)" class="card" style="width: 300px;">
+          <a (click)="infoCoctel(cocktail.drinks[0].strDrink)">
+              <div class="card-divider">
+              <h4 class="text-center">{{cocktail.drinks[0].strDrink}}</h4>
+              </div>
+              <img src={{cocktail.drinks[0].strDrinkThumb}}>
+              <div class="card-section">
+              <p><b>Ingredients: </b>{{ingredients}}</p>
+              </div>
+          </a>
+      </div>
+    </div>
+  </div>
+</div>
+<br>

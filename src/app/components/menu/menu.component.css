@@ -1,0 +1,13 @@
+.input-group-field {
+    color: black;
+}
+
+.popular {
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #239aaf;
+	font-family: 'Koulen', cursive;
+	font-size: 58px;
+	line-height: 54px;
+	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+}

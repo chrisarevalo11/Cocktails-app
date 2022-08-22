@@ -1,0 +1,13 @@
+.menu-title {
+	font-weight: 80;
+	text-transform: uppercase;
+	color: #439dc7;
+	font-family: 'Paytone One', sans-serif;
+	font-size: 200%;
+	line-height: 54px;
+	text-shadow: 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+.button {
+    margin-top: 10%;
+}

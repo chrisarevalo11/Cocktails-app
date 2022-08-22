@@ -1,0 +1,25 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Koulen&family=Paytone+One&display=swap" rel="stylesheet">
+
+<div class="top-bar">
+  <div class="top-bar-left">
+    <ul class="menu">
+      <li class="menu-img">
+          <a [routerLink]="['/main']">
+              <img src="favicon.ico" alt="icon" width="40"/>
+          </a>
+      </li>
+      <li>
+          <a class="menu-title" [routerLink]="['/main']">
+              <b>COCKTAILS PROJECT</b>
+          </a>
+      </li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li><a class="button" (click)="cargarCoctelRandom()">Get a Random Coctel</a></li>
+    </ul>
+  </div>
+</div>
