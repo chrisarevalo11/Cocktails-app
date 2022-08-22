@@ -1,5 +1,7 @@
 # Cocktails app
 
+API connection with Angular to 'https://www.thecocktaildb.com/api/json/v1/1/', an API that provides cocktails' name, ingredients and instructions to prepare it.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.0.
 
 ## Development server
